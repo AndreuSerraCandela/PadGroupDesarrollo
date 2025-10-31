@@ -1,0 +1,39 @@
+{
+  "id": "17c85f91-e042-42e8-b7e5-4782069df98a",
+  "name": "PardGroup",
+  "publisher": "MaybeCloud",
+  "version": "1.0.0.29",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "dependencies": [
+    {"id": "4cc7c1f9-6c82-4ed1-9ad8-dc1681ea3de1",
+    "name": "Proyectos_Avanzados",
+    "publisher": "MaybeCloud",
+    "version": "1.0.2.46"
+    }
+    
+
+  ],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "21.0.0.0",
+  "idRanges": [
+    {
+      "from": 51200,
+      "to": 51300
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "10.0",
+   "features": ["TranslationFile","GenerateCaptions" ]
+  
+}
