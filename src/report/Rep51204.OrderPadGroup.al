@@ -63,6 +63,14 @@ report 51204 "Order_PadGroup"
             column(AmtCaption; AmtCaptionLbl)
             {
             }
+            column(formapagoDescripcion; formapagoDescripcion)
+            {
+
+            }
+            column(MethopPaymentDescripcion; MethopPayment.Description)
+            {
+
+            }
             column(PaymentTermsCaption; PaymentTermsCaptionLbl)
             {
             }
@@ -1221,11 +1229,14 @@ report 51204 "Order_PadGroup"
         VATPercentCaptionLbl: Label 'VAT';// IVA
                                           //   VATPercentCaptionLbl: Label 'VAT %';
         Quantity_PurchLineCaption: Label 'Ud./Uds';
+        formapagoDescripcion: Label 'Form of payment', comment = 'ESP="Forma de pago"';
+
         Text004: Label 'Order %1', Comment = '%1 = Document No.';
         GLSetup: Record "General Ledger Setup";
         CompanyInfo: Record "Company Information";
         ShipmentMethod: Record "Shipment Method";
         PaymentTerms: Record "Payment Terms";
+        MethopPayment: Record "Payment Method";
         PrepmtPaymentTerms: Record "Payment Terms";
         SalesPurchPerson: Record "Salesperson/Purchaser";
         TempVATAmountLine: Record "VAT Amount Line" temporary;
@@ -1386,6 +1397,7 @@ report 51204 "Order_PadGroup"
             FormatDocument.SetPaymentTerms(PaymentTerms, "Payment Terms Code", "Language Code");
             FormatDocument.SetPaymentTerms(PrepmtPaymentTerms, "Prepmt. Payment Terms Code", "Language Code");
             FormatDocument.SetShipmentMethod(ShipmentMethod, "Shipment Method Code", "Language Code");
+            FormatDocument.SetPaymentMethod(MethopPayment, "Purchase Header"."Payment Method Code", "Language Code");
 
             ReferenceText := FormatDocument.SetText("Your Reference" <> '', FieldCaption("Your Reference"));
             VATNoText := FormatDocument.SetText("VAT Registration No." <> '', FieldCaption("VAT Registration No."));

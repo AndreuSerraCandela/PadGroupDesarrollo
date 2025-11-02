@@ -205,7 +205,9 @@ Cstr(Fields!ShpMethodCaption.Value) + Chr(177) +
 Cstr(Fields!PrePmtTermsDescCaption.Value) + Chr(177) + 
 Cstr(Fields!CACCaption.Value) + Chr(177) +
 Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + Chr(177) + Cstr(Fields!CodOfertaCaption.Value) + Chr(177) + Cstr(Fields!CodOferta.Value) + Chr(177) + Cstr(Fields!DueDateCaption.Value) + Chr(177) + Cstr(Fields!Duedate.Value)
-, 1)</Hidden>
++ Chr(177) + 
+Cstr(Fields!formapagoDescripcion.Value) + Chr(177) + 
+Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                             </Visibility>
                                             <Style>
                                               <Border>
@@ -529,7 +531,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                 </TablixColumns>
                                 <TablixRows>
                                   <TablixRow>
-                                    <Height>0.54328cm</Height>
+                                    <Height>0.54007cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -563,14 +565,14 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                       </TablixCell>
                                       <TablixCell>
                                         <CellContents>
-                                          <Textbox Name="textbox2">
+                                          <Textbox Name="Textbox12">
                                             <CanGrow>true</CanGrow>
                                             <KeepTogether>true</KeepTogether>
                                             <Paragraphs>
                                               <Paragraph>
                                                 <TextRuns>
                                                   <TextRun>
-                                                    <Value>=Fields!Desc_PurchLineCaption.Value</Value>
+                                                    <Value />
                                                     <Style>
                                                       <FontStyle>Normal</FontStyle>
                                                       <FontFamily>Segoe UI</FontFamily>
@@ -584,8 +586,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                                 </Style>
                                               </Paragraph>
                                             </Paragraphs>
-                                            <rd:DefaultName>textbox2</rd:DefaultName>
-                                            <ZIndex>143</ZIndex>
+                                            <rd:DefaultName>Textbox12</rd:DefaultName>
                                             <Style>
                                               <Border>
                                                 <Style>Solid</Style>
@@ -846,7 +847,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.17667cm</Height>
+                                    <Height>0.17346cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1116,7 +1117,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.41307cm</Height>
+                                    <Height>0.40986cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1328,7 +1329,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.35278cm</Height>
+                                    <Height>0.34957cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1455,7 +1456,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34636cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1525,7 +1526,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.5365cm</Height>
+                                    <Height>0.53329cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1597,7 +1598,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.35278cm</Height>
+                                    <Height>0.34957cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1631,7 +1632,6 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                             </Style>
                                           </Textbox>
                                           <ColSpan>8</ColSpan>
-                                          <rd:Selected>true</rd:Selected>
                                         </CellContents>
                                       </TablixCell>
                                       <TablixCell />
@@ -1644,7 +1644,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34636cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1751,7 +1751,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.35278cm</Height>
+                                    <Height>0.34957cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1855,7 +1855,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34636cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1959,7 +1959,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.35278cm</Height>
+                                    <Height>0.34957cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2065,7 +2065,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34636cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2168,7 +2168,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.17638cm</Height>
+                                    <Height>0.17317cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2240,7 +2240,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.17317cm</Height>
+                                    <Height>0.16996cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2318,7 +2318,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.35278cm</Height>
+                                    <Height>0.34957cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2424,7 +2424,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34636cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2528,7 +2528,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.17638cm</Height>
+                                    <Height>0.17317cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2606,7 +2606,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.17317cm</Height>
+                                    <Height>0.16996cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2678,7 +2678,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.35278cm</Height>
+                                    <Height>0.34957cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2782,7 +2782,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34636cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2824,7 +2824,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.35278cm</Height>
+                                    <Height>0.34957cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2926,7 +2926,7 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34636cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -3208,8 +3208,9 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                                   <Value>=Fields!DocType_PurchHeader.Value</Value>
                                 </SortExpression>
                               </SortExpressions>
+                              <Top>0.07056cm</Top>
                               <Left>0.03517cm</Left>
-                              <Height>7.28507cm</Height>
+                              <Height>7.21451cm</Height>
                               <Width>19.97047cm</Width>
                               <ZIndex>1</ZIndex>
                               <Style />
@@ -3963,6 +3964,59 @@ Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + 
                     <VerticalAlign>Middle</VerticalAlign>
                   </Style>
                 </Textbox>
+                <Textbox Name="ReferenceText4">
+                  <KeepTogether>true</KeepTogether>
+                  <Paragraphs>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Code.GetData(58,1)</Value>
+                          <Style>
+                            <FontStyle>Normal</FontStyle>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                            <FontWeight>Bold</FontWeight>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                  </Paragraphs>
+                  <Top>42.2pt</Top>
+                  <Left>0.28639cm</Left>
+                  <Height>11pt</Height>
+                  <Width>4cm</Width>
+                  <ZIndex>6</ZIndex>
+                  <Style>
+                    <VerticalAlign>Middle</VerticalAlign>
+                  </Style>
+                </Textbox>
+                <Textbox Name="PurchaseHeaderYourReference4">
+                  <KeepTogether>true</KeepTogether>
+                  <Paragraphs>
+                    <Paragraph>
+                      <TextRuns>
+                        <TextRun>
+                          <Value>=Code.GetData(59,1)</Value>
+                          <Style>
+                            <FontStyle>Normal</FontStyle>
+                            <FontFamily>Segoe UI</FontFamily>
+                            <FontSize>8pt</FontSize>
+                          </Style>
+                        </TextRun>
+                      </TextRuns>
+                      <Style />
+                    </Paragraph>
+                  </Paragraphs>
+                  <Top>42.18pt</Top>
+                  <Left>4.27639cm</Left>
+                  <Height>11pt</Height>
+                  <Width>5cm</Width>
+                  <ZIndex>7</ZIndex>
+                  <Style>
+                    <VerticalAlign>Middle</VerticalAlign>
+                  </Style>
+                </Textbox>
               </ReportItems>
               <KeepTogether>true</KeepTogether>
               <Top>3.80153cm</Top>
@@ -4187,6 +4241,12 @@ End Function
         </Field>
         <Field Name="AmtCaption">
           <DataField>AmtCaption</DataField>
+        </Field>
+        <Field Name="formapagoDescripcion">
+          <DataField>formapagoDescripcion</DataField>
+        </Field>
+        <Field Name="MethopPaymentDescripcion">
+          <DataField>MethopPaymentDescripcion</DataField>
         </Field>
         <Field Name="PaymentTermsCaption">
           <DataField>PaymentTermsCaption</DataField>
