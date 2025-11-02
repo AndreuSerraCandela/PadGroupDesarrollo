@@ -5,91 +5,102 @@
   <file datatype="xml" source-language="en-US" target-language="es-ES" original="PardGroup">
     <body>
       <group id="body">
-        <trans-unit id="Report 4219976808 - NamedType 1096796838" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sell-to Contact Phone No.</source>
-          <target state="translated">N.º teléfono de Venta a-Atención</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType SellToContactPhoneNoLbl</note>
+        <trans-unit id="Report 4219976808 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pro Forma Invoice</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 1119192707" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Name (in print) Signature</source>
-          <target state="translated">Firma de nombre (impreso)</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType SignatureNameLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 1464398968" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Country</source>
-          <target state="translated">País</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType CountryOfManufactuctureLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 1851005282" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4219976808 - NamedType 1851005282" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
           <source>Bill-to Contact E-Mail</source>
           <target state="translated">Correo electrónico de Fact. a-Atención</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType BillToContactEmailLbl</note>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType BillToContactEmailLbl</note>
         </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 1877187315" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Page</source>
-          <target state="translated">Página</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType PageLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 24137681" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Bill-to Contact Phone No.</source>
-          <target state="translated">N.º de teléfono de Fact. a-Atención</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType BillToContactPhoneNoLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 2423794985" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4219976808 - NamedType 2423794985" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
           <source>Bill-to Contact Mobile Phone No.</source>
           <target state="translated">N.º teléfono móvil de Fact. a-Atención</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType BillToContactMobilePhoneNoLbl</note>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType BillToContactMobilePhoneNoLbl</note>
         </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 2518404021" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sell-to Contact E-Mail</source>
-          <target state="translated">Correo electrónico de Venta a-Atención</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType SellToContactEmailLbl</note>
+        <trans-unit id="Report 4219976808 - NamedType 24137681" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
+          <source>Bill-to Contact Phone No.</source>
+          <target state="translated">N.º de teléfono de Fact. a-Atención</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType BillToContactPhoneNoLbl</note>
         </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 2623093095" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Pro Forma Invoice</source>
-          <target state="translated">Factura proforma</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType DocumentTitleLbl</note>
+        <trans-unit id="Report 4219976808 - NamedType 1464398968" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
+          <source>Country</source>
+          <target state="translated">País</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType CountryOfManufactuctureLbl</note>
         </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 2756798833" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Position in company</source>
-          <target state="translated">Puesto en la empresa</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType SignaturePositionLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 3058433994" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>For and on behalf of the above named company:</source>
-          <target state="translated">Para la empresa antes mencionada y en nombre de ella:</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType SignatureLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 3182469044" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Total Weight</source>
-          <target state="translated">Peso total</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType TotalWeightLbl</note>
-        </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 3878637365" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4219976808 - NamedType 3878637365" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
           <source>For customs purposes only.</source>
           <target state="translated">Solo para fines aduaneros.</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType DeclartionLbl</note>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType DeclartionLbl</note>
         </trans-unit>
-        <trans-unit id="Report 4219976808 - NamedType 689955230" maxwidth="0" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Report 4219976808 - NamedType 2623093095" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
+          <source>Pro Forma Invoice</source>
+          <target state="translated">Factura proforma</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType DocumentTitleLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4219976808 - NamedType 1877187315" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
+          <source>Page</source>
+          <target state="translated">Página</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType PageLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4219976808 - NamedType 2518404021" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
+          <source>Sell-to Contact E-Mail</source>
+          <target state="translated">Correo electrónico de Venta a-Atención</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType SellToContactEmailLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4219976808 - NamedType 689955230" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
           <source>Sell-to Contact Mobile Phone No.</source>
           <target state="translated">Teléfono móvil de Venta a-Atención</target>
-          <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Pro Forma Inv - NamedType SellToContactMobilePhoneNoLbl</note>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType SellToContactMobilePhoneNoLbl</note>
         </trans-unit>
-
+        <trans-unit id="Report 4219976808 - NamedType 1096796838" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
+          <source>Sell-to Contact Phone No.</source>
+          <target state="translated">N.º teléfono de Venta a-Atención</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType SellToContactPhoneNoLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4219976808 - NamedType 3058433994" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
+          <source>For and on behalf of the above named company:</source>
+          <target state="translated">Para la empresa antes mencionada y en nombre de ella:</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType SignatureLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4219976808 - NamedType 1119192707" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
+          <source>Name (in print) Signature</source>
+          <target state="translated">Firma de nombre (impreso)</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType SignatureNameLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4219976808 - NamedType 2756798833" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
+          <source>Position in company</source>
+          <target state="translated">Puesto en la empresa</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType SignaturePositionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4219976808 - NamedType 3182469044" size-unit="char" translate="yes" xml:space="preserve" maxwidth="0">
+          <source>Total Weight</source>
+          <target state="translated">Peso total</target>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - NamedType TotalWeightLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 4219976808 - ReportDataItem 907109761 - Property 1806354803" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pro Forma Invoice</source>
+          <target state="needs-translation"/>
+          <note from="Developer" annotates="general" priority="2"/>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Factura Proforma - ReportDataItem Header - Property RequestFilterHeading</note>
+        </trans-unit>
         <trans-unit id="Report 273479163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Job Quote Pargroup</source>
           <target>Oferta Proyecto Pardgroup</target>
@@ -299,6 +310,12 @@
           <target state="needs-translation"/>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report Order_PadGroup - NamedType EmailCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 860932901 - NamedType 2397572321" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Form of payment</source>
+          <target>Forma de pago</target>
+          <note from="Developer" annotates="general" priority="2">ESP="Forma de pago"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Order_PadGroup - NamedType formapagoDescripcion</note>
         </trans-unit>
         <trans-unit id="Report 860932901 - NamedType 13422290" size-unit="char" translate="yes" xml:space="preserve">
           <source>Giro No.</source>
