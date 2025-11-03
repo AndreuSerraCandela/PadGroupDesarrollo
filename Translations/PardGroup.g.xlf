@@ -153,6 +153,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Job Quote Pargroup - NamedType SimboloEuro</note>
         </trans-unit>
+        <trans-unit id="Report 273479163 - NamedType 2940147272" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Términos de Pago"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Job Quote Pargroup - NamedType TerminopagoLabl</note>
+        </trans-unit>
         <trans-unit id="Report 273479163 - NamedType 2772987805" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total excluding VAT</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -382,6 +387,11 @@
           <source>Subtotal</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Order_PadGroup - NamedType SubtotalCaptionLbl</note>
+        </trans-unit>
+        <trans-unit id="Report 860932901 - NamedType 2940147272" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms</source>
+          <note from="Developer" annotates="general" priority="2">ESP="Términos de Pago"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Order_PadGroup - NamedType TerminopagoLabl</note>
         </trans-unit>
         <trans-unit id="Report 860932901 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order %1</source>

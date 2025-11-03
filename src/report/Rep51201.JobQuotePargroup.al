@@ -110,6 +110,14 @@ report 51201 "Job Quote Pargroup"
             }
             column(VatCustomer; VatCustomer) { }
             column(SimboloEuro; SimboloEuro) { }
+            column(TerminopagoLabl; TerminopagoLabl)
+            {
+
+            }
+            column(PaymentTermDescripcion; PaymentTerms.Description)
+            {
+
+            }
             dataitem("Job Task"; "Job Task")
             {
                 DataItemLink = "Job No." = FIELD("No.");
@@ -267,6 +275,7 @@ report 51201 "Job Quote Pargroup"
                 Customer.Get("Bill-to Customer No.");
                 FormatAddr.Customer(BillToAddr, Customer);
                 VatCustomer := Customer."VAT Registration No.";
+                FormatDocument.SetPaymentTerms(PaymentTerms, "Payment Terms Code", "Language Code");
             end;
         }
     }
@@ -316,6 +325,10 @@ report 51201 "Job Quote Pargroup"
     end;
 
     var
+        TerminopagoLabl: Label 'Payment Terms', comment = 'ESP="Términos de Pago"';
+
+        PaymentTerms: Record "Payment Terms";
+        FormatDocument: Codeunit "Format Document";
         VatCustomer: Text[20];
         varInStream: InStream;
         legalTextTxt: Text;

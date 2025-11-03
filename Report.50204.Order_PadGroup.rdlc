@@ -204,10 +204,16 @@ Cstr(Fields!PaymentTermsCaption.Value) + Chr(177) +
 Cstr(Fields!ShpMethodCaption.Value) + Chr(177) + 
 Cstr(Fields!PrePmtTermsDescCaption.Value) + Chr(177) + 
 Cstr(Fields!CACCaption.Value) + Chr(177) +
-Cstr(Fields!OrderDateCaption.Value) + Chr(177) + Cstr(Fields!OrderDate.Value) + Chr(177) + Cstr(Fields!CodOfertaCaption.Value) + Chr(177) + Cstr(Fields!CodOferta.Value) + Chr(177) + Cstr(Fields!DueDateCaption.Value) + Chr(177) + Cstr(Fields!Duedate.Value)
-+ Chr(177) + 
+Cstr(Fields!OrderDateCaption.Value) + Chr(177) +
+Cstr(Fields!OrderDate.Value) + Chr(177) +
+Cstr(Fields!CodOfertaCaption.Value) + Chr(177) +
+Cstr(Fields!CodOferta.Value) + Chr(177) +
+Cstr(Fields!DueDateCaption.Value) + Chr(177) + 
+Cstr(Fields!Duedate.Value) + Chr(177) + 
 Cstr(Fields!formapagoDescripcion.Value) + Chr(177) + 
-Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
+Cstr(Fields!MethopPaymentDescripcion.Value)+ Chr(177) + 
+Cstr(Fields!TerminopagoLabl.Value)+ Chr(177) + 
+Cstr(Fields!PaymentTermDescripcion.Value), 1)</Hidden>
                                             </Visibility>
                                             <Style>
                                               <Border>
@@ -531,7 +537,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                 </TablixColumns>
                                 <TablixRows>
                                   <TablixRow>
-                                    <Height>0.54007cm</Height>
+                                    <Height>0.53847cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -847,7 +853,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.17346cm</Height>
+                                    <Height>0.17186cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1117,7 +1123,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.40986cm</Height>
+                                    <Height>0.40826cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1329,7 +1335,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34797cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1456,7 +1462,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34636cm</Height>
+                                    <Height>0.34476cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1526,7 +1532,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.53329cm</Height>
+                                    <Height>0.53169cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1598,7 +1604,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34797cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1644,7 +1650,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34636cm</Height>
+                                    <Height>0.34476cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1751,7 +1757,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34797cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1855,7 +1861,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34636cm</Height>
+                                    <Height>0.34476cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -1959,7 +1965,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34797cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2065,7 +2071,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34636cm</Height>
+                                    <Height>0.34476cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2168,7 +2174,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.17317cm</Height>
+                                    <Height>0.17157cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2240,7 +2246,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.16996cm</Height>
+                                    <Height>0.16836cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2318,7 +2324,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34797cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2424,7 +2430,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34636cm</Height>
+                                    <Height>0.34476cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2528,7 +2534,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.17317cm</Height>
+                                    <Height>0.17157cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2606,7 +2612,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.16996cm</Height>
+                                    <Height>0.16836cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2678,7 +2684,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34797cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2782,7 +2788,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34636cm</Height>
+                                    <Height>0.34476cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2824,7 +2830,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34957cm</Height>
+                                    <Height>0.34797cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -2926,7 +2932,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                     </TablixCells>
                                   </TablixRow>
                                   <TablixRow>
-                                    <Height>0.34636cm</Height>
+                                    <Height>0.34476cm</Height>
                                     <TablixCells>
                                       <TablixCell>
                                         <CellContents>
@@ -3208,9 +3214,9 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                                   <Value>=Fields!DocType_PurchHeader.Value</Value>
                                 </SortExpression>
                               </SortExpressions>
-                              <Top>0.07056cm</Top>
+                              <Top>0.10583cm</Top>
                               <Left>0.03517cm</Left>
-                              <Height>7.21451cm</Height>
+                              <Height>7.17918cm</Height>
                               <Width>19.97047cm</Width>
                               <ZIndex>1</ZIndex>
                               <Style />
@@ -3970,7 +3976,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value>=Code.GetData(58,1)</Value>
+                          <Value>=Code.GetData(60,1)</Value>
                           <Style>
                             <FontStyle>Normal</FontStyle>
                             <FontFamily>Segoe UI</FontFamily>
@@ -3997,7 +4003,7 @@ Cstr(Fields!MethopPaymentDescripcion.Value), 1)</Hidden>
                     <Paragraph>
                       <TextRuns>
                         <TextRun>
-                          <Value>=Code.GetData(59,1)</Value>
+                          <Value>=Code.GetData(61,1)</Value>
                           <Style>
                             <FontStyle>Normal</FontStyle>
                             <FontFamily>Segoe UI</FontFamily>
@@ -4247,6 +4253,12 @@ End Function
         </Field>
         <Field Name="MethopPaymentDescripcion">
           <DataField>MethopPaymentDescripcion</DataField>
+        </Field>
+        <Field Name="TerminopagoLabl">
+          <DataField>TerminopagoLabl</DataField>
+        </Field>
+        <Field Name="PaymentTermDescripcion">
+          <DataField>PaymentTermDescripcion</DataField>
         </Field>
         <Field Name="PaymentTermsCaption">
           <DataField>PaymentTermsCaption</DataField>

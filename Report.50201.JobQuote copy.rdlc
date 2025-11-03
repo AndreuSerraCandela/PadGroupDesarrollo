@@ -810,15 +810,16 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!TerminopagoLabl.Value</Value>
+                                      <Value />
                                       <Style>
                                         <FontFamily>Segoe UI</FontFamily>
-                                        <FontSize>8pt</FontSize>
-                                        <FontWeight>Bold</FontWeight>
+                                        <FontSize>9pt</FontSize>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
-                                  <Style />
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
                                 </Paragraph>
                               </Paragraphs>
                               <rd:DefaultName>Textbox22</rd:DefaultName>
@@ -826,11 +827,8 @@
                                 <Border>
                                   <Style>None</Style>
                                 </Border>
-                                <VerticalAlign>Middle</VerticalAlign>
-                                <PaddingLeft>4pt</PaddingLeft>
-                                <PaddingRight>2pt</PaddingRight>
-                                <PaddingTop>2pt</PaddingTop>
-                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>5pt</PaddingLeft>
+                                <PaddingRight>5pt</PaddingRight>
                               </Style>
                             </Textbox>
                           </CellContents>
@@ -844,14 +842,16 @@
                                 <Paragraph>
                                   <TextRuns>
                                     <TextRun>
-                                      <Value>=Fields!PaymentTermDescripcion.Value</Value>
+                                      <Value />
                                       <Style>
                                         <FontFamily>Segoe UI</FontFamily>
-                                        <FontSize>8pt</FontSize>
+                                        <FontSize>9pt</FontSize>
                                       </Style>
                                     </TextRun>
                                   </TextRuns>
-                                  <Style />
+                                  <Style>
+                                    <TextAlign>Right</TextAlign>
+                                  </Style>
                                 </Paragraph>
                               </Paragraphs>
                               <rd:DefaultName>Textbox10</rd:DefaultName>
@@ -864,14 +864,10 @@
                                   <Style>Solid</Style>
                                   <Width>1pt</Width>
                                 </RightBorder>
-                                <VerticalAlign>Middle</VerticalAlign>
-                                <PaddingLeft>2pt</PaddingLeft>
-                                <PaddingRight>2pt</PaddingRight>
-                                <PaddingTop>2pt</PaddingTop>
-                                <PaddingBottom>2pt</PaddingBottom>
+                                <PaddingLeft>5pt</PaddingLeft>
+                                <PaddingRight>5pt</PaddingRight>
                               </Style>
                             </Textbox>
-                            <rd:Selected>true</rd:Selected>
                           </CellContents>
                         </TablixCell>
                       </TablixCells>
@@ -3055,12 +3051,6 @@ End Function
         </Field>
         <Field Name="SimboloEuro">
           <DataField>SimboloEuro</DataField>
-        </Field>
-        <Field Name="TerminopagoLabl">
-          <DataField>TerminopagoLabl</DataField>
-        </Field>
-        <Field Name="PaymentTermDescripcion">
-          <DataField>PaymentTermDescripcion</DataField>
         </Field>
         <Field Name="JobTaskNo_JobTask">
           <DataField>JobTaskNo_JobTask</DataField>

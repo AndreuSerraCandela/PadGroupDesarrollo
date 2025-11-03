@@ -33,6 +33,12 @@ codeunit 51200 Eventos
         exit;
     end;
 
+    ///PARA PROYECTOS
+
+
+
+    //PROYECTOS
+
     var
         myInt: Integer;
 }

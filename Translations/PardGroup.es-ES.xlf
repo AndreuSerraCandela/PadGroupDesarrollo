@@ -185,6 +185,12 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report Job Quote Pargroup - NamedType SimboloEuro</note>
         </trans-unit>
+        <trans-unit id="Report 273479163 - NamedType 2940147272" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms</source>
+          <target>Términos de Pago</target>
+          <note from="Developer" annotates="general" priority="2">ESP="Términos de Pago"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Job Quote Pargroup - NamedType TerminopagoLabl</note>
+        </trans-unit>
         <trans-unit id="Report 273479163 - NamedType 2772987805" size-unit="char" translate="yes" xml:space="preserve">
           <source>Total excluding VAT</source>
           <target>Total sin IVA</target>
@@ -391,7 +397,7 @@
         </trans-unit>
         <trans-unit id="Report 860932901 - NamedType 1302573237" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Terms</source>
-          <target state="needs-translation"/>
+          <target>Términos de Pago</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report Order_PadGroup - NamedType PaymentTermsCaptionLbl</note>
         </trans-unit>
@@ -461,9 +467,15 @@
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report Order_PadGroup - NamedType SubtotalCaptionLbl</note>
         </trans-unit>
+        <trans-unit id="Report 860932901 - NamedType 2940147272" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms</source>
+          <target>Términos de Pago</target>
+          <note from="Developer" annotates="general" priority="2">ESP="Términos de Pago"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Report Order_PadGroup - NamedType TerminopagoLabl</note>
+        </trans-unit>
         <trans-unit id="Report 860932901 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
           <source>Order %1</source>
-          <target state="needs-translation">Pedido</target>
+          <target state="needs-adaptation">Pedido</target>
           <note from="Developer" annotates="general" priority="2">%1 = Document No.</note>
           <note from="Xliff Generator" annotates="general" priority="3">Report Order_PadGroup - NamedType Text004</note>
         </trans-unit>
@@ -919,7 +931,7 @@
         </trans-unit>
         <trans-unit id="Report 3165141083 - NamedType 2906320672" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Terms</source>
-          <target state="needs-translation"/>
+          <target>Términos de Pago</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report Sales - Invoice-PardGroup - NamedType PaymentTermsDescLbl</note>
         </trans-unit>
@@ -1411,7 +1423,7 @@
         </trans-unit>
         <trans-unit id="Report 2065070560 - NamedType 732759939" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sales - Invoice %1</source>
-          <target state="needs-translation">Factura Venta</target>
+          <target state="needs-adaptation">Factura Venta</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report SalesInvoice-Pardgroup - NamedType Text004</note>
         </trans-unit>
@@ -1789,7 +1801,7 @@
         </trans-unit>
         <trans-unit id="Report 3925906797 - NamedType 2906320672" size-unit="char" translate="yes" xml:space="preserve">
           <source>Payment Terms</source>
-          <target state="needs-translation"/>
+          <target>Términos de Pago</target>
           <note from="Developer" annotates="general" priority="2"/>
           <note from="Xliff Generator" annotates="general" priority="3">Report Standard Sales - Abono - NamedType PaymentTermsDescLbl</note>
         </trans-unit>

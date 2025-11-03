@@ -71,6 +71,14 @@ report 51204 "Order_PadGroup"
             {
 
             }
+            column(TerminopagoLabl; TerminopagoLabl)
+            {
+
+            }
+            column(PaymentTermDescripcion; PaymentTerms.Description)
+            {
+
+            }
             column(PaymentTermsCaption; PaymentTermsCaptionLbl)
             {
             }
@@ -1230,6 +1238,7 @@ report 51204 "Order_PadGroup"
                                           //   VATPercentCaptionLbl: Label 'VAT %';
         Quantity_PurchLineCaption: Label 'Ud./Uds';
         formapagoDescripcion: Label 'Form of payment', comment = 'ESP="Forma de pago"';
+        TerminopagoLabl: Label 'Payment Terms', comment = 'ESP="Términos de Pago"';
 
         Text004: Label 'Order %1', Comment = '%1 = Document No.';
         GLSetup: Record "General Ledger Setup";
