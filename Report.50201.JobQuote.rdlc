@@ -11,250 +11,6 @@
       <rd:DataSourceID>2b7695cd-7fd6-45c4-a407-eb7376f4e9d8</rd:DataSourceID>
     </DataSource>
   </DataSources>
-  <DataSets>
-    <DataSet Name="DataSet_Result">
-      <Query>
-        <DataSourceName>DataSource</DataSourceName>
-        <CommandText />
-      </Query>
-      <Fields>
-        <Field Name="CompanyAddress1">
-          <DataField>CompanyAddress1</DataField>
-        </Field>
-        <Field Name="CompanyAddress2">
-          <DataField>CompanyAddress2</DataField>
-        </Field>
-        <Field Name="CompanyAddress3">
-          <DataField>CompanyAddress3</DataField>
-        </Field>
-        <Field Name="CompanyAddress4">
-          <DataField>CompanyAddress4</DataField>
-        </Field>
-        <Field Name="CompanyAddress5">
-          <DataField>CompanyAddress5</DataField>
-        </Field>
-        <Field Name="CompanyAddress6">
-          <DataField>CompanyAddress6</DataField>
-        </Field>
-        <Field Name="CompanyPicture">
-          <DataField>CompanyPicture</DataField>
-        </Field>
-        <Field Name="companyPieLogo">
-          <DataField>companyPieLogo</DataField>
-        </Field>
-        <Field Name="CompanyLogoPosition">
-          <DataField>CompanyLogoPosition</DataField>
-        </Field>
-        <Field Name="DocumentTitle_Lbl">
-          <DataField>DocumentTitle_Lbl</DataField>
-        </Field>
-        <Field Name="CompanyVATRegNo">
-          <DataField>CompanyVATRegNo</DataField>
-        </Field>
-        <Field Name="Direccion1">
-          <DataField>Direccion1</DataField>
-        </Field>
-        <Field Name="City1">
-          <DataField>City1</DataField>
-        </Field>
-        <Field Name="CodigoPosta1">
-          <DataField>CodigoPosta1</DataField>
-        </Field>
-        <Field Name="EmailCompany">
-          <DataField>EmailCompany</DataField>
-        </Field>
-        <Field Name="DueDate_Lbl">
-          <DataField>DueDate_Lbl</DataField>
-        </Field>
-        <Field Name="ExternalDocumentNo_Lbl">
-          <DataField>ExternalDocumentNo_Lbl</DataField>
-        </Field>
-        <Field Name="External_Document_No_">
-          <DataField>External_Document_No_</DataField>
-        </Field>
-        <Field Name="Your_Reference">
-          <DataField>Your_Reference</DataField>
-        </Field>
-        <Field Name="YourReferenceLbl">
-          <DataField>YourReferenceLbl</DataField>
-        </Field>
-        <Field Name="DatosFiscales_Lbl">
-          <DataField>DatosFiscales_Lbl</DataField>
-        </Field>
-        <Field Name="codOferta">
-          <DataField>codOferta</DataField>
-        </Field>
-        <Field Name="CodOferta_lbl">
-          <DataField>CodOferta_lbl</DataField>
-        </Field>
-        <Field Name="legalTextTxt">
-          <DataField>legalTextTxt</DataField>
-        </Field>
-        <Field Name="TodayFormatted">
-          <DataField>TodayFormatted</DataField>
-        </Field>
-        <Field Name="CompanyName">
-          <DataField>CompanyName</DataField>
-        </Field>
-        <Field Name="JobtableCaptJobFilter">
-          <DataField>JobtableCaptJobFilter</DataField>
-        </Field>
-        <Field Name="JobFilter">
-          <DataField>JobFilter</DataField>
-        </Field>
-        <Field Name="JobTasktableCaptFilter">
-          <DataField>JobTasktableCaptFilter</DataField>
-        </Field>
-        <Field Name="JobTaskFilter">
-          <DataField>JobTaskFilter</DataField>
-        </Field>
-        <Field Name="No_Job">
-          <DataField>No_Job</DataField>
-        </Field>
-        <Field Name="CurrReportPageNoCaption">
-          <DataField>CurrReportPageNoCaption</DataField>
-        </Field>
-        <Field Name="JobQuoteCaptLbl">
-          <DataField>JobQuoteCaptLbl</DataField>
-        </Field>
-        <Field Name="BillToAddress1">
-          <DataField>BillToAddress1</DataField>
-        </Field>
-        <Field Name="BillToAddress2">
-          <DataField>BillToAddress2</DataField>
-        </Field>
-        <Field Name="BillToAddress3">
-          <DataField>BillToAddress3</DataField>
-        </Field>
-        <Field Name="BillToAddress4">
-          <DataField>BillToAddress4</DataField>
-        </Field>
-        <Field Name="BillToAddress5">
-          <DataField>BillToAddress5</DataField>
-        </Field>
-        <Field Name="BillToAddress6">
-          <DataField>BillToAddress6</DataField>
-        </Field>
-        <Field Name="VatCustomer">
-          <DataField>VatCustomer</DataField>
-        </Field>
-        <Field Name="SimboloEuro">
-          <DataField>SimboloEuro</DataField>
-        </Field>
-        <Field Name="TerminopagoLabl">
-          <DataField>TerminopagoLabl</DataField>
-        </Field>
-        <Field Name="PaymentTermDescripcion">
-          <DataField>PaymentTermDescripcion</DataField>
-        </Field>
-        <Field Name="JobTaskNo_JobTask">
-          <DataField>JobTaskNo_JobTask</DataField>
-        </Field>
-        <Field Name="Indentation_JobTask">
-          <DataField>Indentation_JobTask</DataField>
-        </Field>
-        <Field Name="NewTaskGroup">
-          <DataField>NewTaskGroup</DataField>
-        </Field>
-        <Field Name="QuantityCaption">
-          <DataField>QuantityCaption</DataField>
-        </Field>
-        <Field Name="UnitCostCaption">
-          <DataField>UnitCostCaption</DataField>
-        </Field>
-        <Field Name="TotalCostCaption">
-          <DataField>TotalCostCaption</DataField>
-        </Field>
-        <Field Name="JobTaskTypeCaption">
-          <DataField>JobTaskTypeCaption</DataField>
-        </Field>
-        <Field Name="NoCaption">
-          <DataField>NoCaption</DataField>
-        </Field>
-        <Field Name="Description_Job">
-          <DataField>Description_Job</DataField>
-        </Field>
-        <Field Name="DescriptionCaption">
-          <DataField>DescriptionCaption</DataField>
-        </Field>
-        <Field Name="JobTaskNoCapt">
-          <DataField>JobTaskNoCapt</DataField>
-        </Field>
-        <Field Name="TotalJobTask">
-          <DataField>TotalJobTask</DataField>
-        </Field>
-        <Field Name="TotalJob">
-          <DataField>TotalJob</DataField>
-        </Field>
-        <Field Name="ShowIntBody1">
-          <DataField>ShowIntBody1</DataField>
-        </Field>
-        <Field Name="Quantity">
-          <DataField>Quantity</DataField>
-        </Field>
-        <Field Name="QuantityFormat">
-          <DataField>QuantityFormat</DataField>
-        </Field>
-        <Field Name="UnitCostLCY">
-          <DataField>UnitCostLCY</DataField>
-        </Field>
-        <Field Name="UnitCostLCYFormat">
-          <DataField>UnitCostLCYFormat</DataField>
-        </Field>
-        <Field Name="UnitCost">
-          <DataField>UnitCost</DataField>
-        </Field>
-        <Field Name="UnitCostFormat">
-          <DataField>UnitCostFormat</DataField>
-        </Field>
-        <Field Name="TotalCostLCY">
-          <DataField>TotalCostLCY</DataField>
-        </Field>
-        <Field Name="TotalCostLCYFormat">
-          <DataField>TotalCostLCYFormat</DataField>
-        </Field>
-        <Field Name="TotalCost">
-          <DataField>TotalCost</DataField>
-        </Field>
-        <Field Name="TotalCostFormat">
-          <DataField>TotalCostFormat</DataField>
-        </Field>
-        <Field Name="Type">
-          <DataField>Type</DataField>
-        </Field>
-        <Field Name="Number">
-          <DataField>Number</DataField>
-        </Field>
-        <Field Name="JobPlanningLine_JobTaskNo">
-          <DataField>JobPlanningLine_JobTaskNo</DataField>
-        </Field>
-        <Field Name="JobPlanningLine_Type">
-          <DataField>JobPlanningLine_Type</DataField>
-        </Field>
-        <Field Name="JobPlanningLine_LineType">
-          <DataField>JobPlanningLine_LineType</DataField>
-        </Field>
-        <Field Name="Indentation_JobTask2">
-          <DataField>Indentation_JobTask2</DataField>
-        </Field>
-        <Field Name="Indentation_JobTaskTotal">
-          <DataField>Indentation_JobTaskTotal</DataField>
-        </Field>
-        <Field Name="ShowIntBody2">
-          <DataField>ShowIntBody2</DataField>
-        </Field>
-        <Field Name="ShowIntBody3">
-          <DataField>ShowIntBody3</DataField>
-        </Field>
-        <Field Name="TotalJobLbl">
-          <DataField>TotalJobLbl</DataField>
-        </Field>
-        <Field Name="JobTotalValue">
-          <DataField>JobTotalValue</DataField>
-        </Field>
-      </Fields>
-    </DataSet>
-  </DataSets>
   <ReportSections>
     <ReportSection>
       <Body>
@@ -3174,4 +2930,248 @@ End Function
   <ConsumeContainerWhitespace>true</ConsumeContainerWhitespace>
   <rd:ReportUnitType>Cm</rd:ReportUnitType>
   <rd:ReportID>5ecaaa3a-2bcd-45ea-98e4-9110387b0a31</rd:ReportID>
+  <DataSets>
+    <DataSet Name="DataSet_Result">
+      <Fields>
+        <Field Name="CompanyAddress1">
+          <DataField>CompanyAddress1</DataField>
+        </Field>
+        <Field Name="CompanyAddress2">
+          <DataField>CompanyAddress2</DataField>
+        </Field>
+        <Field Name="CompanyAddress3">
+          <DataField>CompanyAddress3</DataField>
+        </Field>
+        <Field Name="CompanyAddress4">
+          <DataField>CompanyAddress4</DataField>
+        </Field>
+        <Field Name="CompanyAddress5">
+          <DataField>CompanyAddress5</DataField>
+        </Field>
+        <Field Name="CompanyAddress6">
+          <DataField>CompanyAddress6</DataField>
+        </Field>
+        <Field Name="CompanyPicture">
+          <DataField>CompanyPicture</DataField>
+        </Field>
+        <Field Name="companyPieLogo">
+          <DataField>companyPieLogo</DataField>
+        </Field>
+        <Field Name="CompanyLogoPosition">
+          <DataField>CompanyLogoPosition</DataField>
+        </Field>
+        <Field Name="DocumentTitle_Lbl">
+          <DataField>DocumentTitle_Lbl</DataField>
+        </Field>
+        <Field Name="CompanyVATRegNo">
+          <DataField>CompanyVATRegNo</DataField>
+        </Field>
+        <Field Name="Direccion1">
+          <DataField>Direccion1</DataField>
+        </Field>
+        <Field Name="City1">
+          <DataField>City1</DataField>
+        </Field>
+        <Field Name="CodigoPosta1">
+          <DataField>CodigoPosta1</DataField>
+        </Field>
+        <Field Name="EmailCompany">
+          <DataField>EmailCompany</DataField>
+        </Field>
+        <Field Name="DueDate_Lbl">
+          <DataField>DueDate_Lbl</DataField>
+        </Field>
+        <Field Name="ExternalDocumentNo_Lbl">
+          <DataField>ExternalDocumentNo_Lbl</DataField>
+        </Field>
+        <Field Name="External_Document_No_">
+          <DataField>External_Document_No_</DataField>
+        </Field>
+        <Field Name="Your_Reference">
+          <DataField>Your_Reference</DataField>
+        </Field>
+        <Field Name="YourReferenceLbl">
+          <DataField>YourReferenceLbl</DataField>
+        </Field>
+        <Field Name="DatosFiscales_Lbl">
+          <DataField>DatosFiscales_Lbl</DataField>
+        </Field>
+        <Field Name="codOferta">
+          <DataField>codOferta</DataField>
+        </Field>
+        <Field Name="CodOferta_lbl">
+          <DataField>CodOferta_lbl</DataField>
+        </Field>
+        <Field Name="legalTextTxt">
+          <DataField>legalTextTxt</DataField>
+        </Field>
+        <Field Name="TodayFormatted">
+          <DataField>TodayFormatted</DataField>
+        </Field>
+        <Field Name="CompanyName">
+          <DataField>CompanyName</DataField>
+        </Field>
+        <Field Name="JobtableCaptJobFilter">
+          <DataField>JobtableCaptJobFilter</DataField>
+        </Field>
+        <Field Name="JobFilter">
+          <DataField>JobFilter</DataField>
+        </Field>
+        <Field Name="JobTasktableCaptFilter">
+          <DataField>JobTasktableCaptFilter</DataField>
+        </Field>
+        <Field Name="JobTaskFilter">
+          <DataField>JobTaskFilter</DataField>
+        </Field>
+        <Field Name="No_Job">
+          <DataField>No_Job</DataField>
+        </Field>
+        <Field Name="CurrReportPageNoCaption">
+          <DataField>CurrReportPageNoCaption</DataField>
+        </Field>
+        <Field Name="JobQuoteCaptLbl">
+          <DataField>JobQuoteCaptLbl</DataField>
+        </Field>
+        <Field Name="BillToAddress1">
+          <DataField>BillToAddress1</DataField>
+        </Field>
+        <Field Name="BillToAddress2">
+          <DataField>BillToAddress2</DataField>
+        </Field>
+        <Field Name="BillToAddress3">
+          <DataField>BillToAddress3</DataField>
+        </Field>
+        <Field Name="BillToAddress4">
+          <DataField>BillToAddress4</DataField>
+        </Field>
+        <Field Name="BillToAddress5">
+          <DataField>BillToAddress5</DataField>
+        </Field>
+        <Field Name="BillToAddress6">
+          <DataField>BillToAddress6</DataField>
+        </Field>
+        <Field Name="VatCustomer">
+          <DataField>VatCustomer</DataField>
+        </Field>
+        <Field Name="SimboloEuro">
+          <DataField>SimboloEuro</DataField>
+        </Field>
+        <Field Name="TerminopagoLabl">
+          <DataField>TerminopagoLabl</DataField>
+        </Field>
+        <Field Name="PaymentTermDescripcion">
+          <DataField>PaymentTermDescripcion</DataField>
+        </Field>
+        <Field Name="JobTaskNo_JobTask">
+          <DataField>JobTaskNo_JobTask</DataField>
+        </Field>
+        <Field Name="Indentation_JobTask">
+          <DataField>Indentation_JobTask</DataField>
+        </Field>
+        <Field Name="NewTaskGroup">
+          <DataField>NewTaskGroup</DataField>
+        </Field>
+        <Field Name="QuantityCaption">
+          <DataField>QuantityCaption</DataField>
+        </Field>
+        <Field Name="UnitCostCaption">
+          <DataField>UnitCostCaption</DataField>
+        </Field>
+        <Field Name="TotalCostCaption">
+          <DataField>TotalCostCaption</DataField>
+        </Field>
+        <Field Name="JobTaskTypeCaption">
+          <DataField>JobTaskTypeCaption</DataField>
+        </Field>
+        <Field Name="NoCaption">
+          <DataField>NoCaption</DataField>
+        </Field>
+        <Field Name="Description_Job">
+          <DataField>Description_Job</DataField>
+        </Field>
+        <Field Name="DescriptionCaption">
+          <DataField>DescriptionCaption</DataField>
+        </Field>
+        <Field Name="JobTaskNoCapt">
+          <DataField>JobTaskNoCapt</DataField>
+        </Field>
+        <Field Name="TotalJobTask">
+          <DataField>TotalJobTask</DataField>
+        </Field>
+        <Field Name="TotalJob">
+          <DataField>TotalJob</DataField>
+        </Field>
+        <Field Name="ShowIntBody1">
+          <DataField>ShowIntBody1</DataField>
+        </Field>
+        <Field Name="Quantity">
+          <DataField>Quantity</DataField>
+        </Field>
+        <Field Name="QuantityFormat">
+          <DataField>QuantityFormat</DataField>
+        </Field>
+        <Field Name="UnitCostLCY">
+          <DataField>UnitCostLCY</DataField>
+        </Field>
+        <Field Name="UnitCostLCYFormat">
+          <DataField>UnitCostLCYFormat</DataField>
+        </Field>
+        <Field Name="UnitCost">
+          <DataField>UnitCost</DataField>
+        </Field>
+        <Field Name="UnitCostFormat">
+          <DataField>UnitCostFormat</DataField>
+        </Field>
+        <Field Name="TotalCostLCY">
+          <DataField>TotalCostLCY</DataField>
+        </Field>
+        <Field Name="TotalCostLCYFormat">
+          <DataField>TotalCostLCYFormat</DataField>
+        </Field>
+        <Field Name="TotalCost">
+          <DataField>TotalCost</DataField>
+        </Field>
+        <Field Name="TotalCostFormat">
+          <DataField>TotalCostFormat</DataField>
+        </Field>
+        <Field Name="Type">
+          <DataField>Type</DataField>
+        </Field>
+        <Field Name="Number">
+          <DataField>Number</DataField>
+        </Field>
+        <Field Name="JobPlanningLine_JobTaskNo">
+          <DataField>JobPlanningLine_JobTaskNo</DataField>
+        </Field>
+        <Field Name="JobPlanningLine_Type">
+          <DataField>JobPlanningLine_Type</DataField>
+        </Field>
+        <Field Name="JobPlanningLine_LineType">
+          <DataField>JobPlanningLine_LineType</DataField>
+        </Field>
+        <Field Name="Indentation_JobTask2">
+          <DataField>Indentation_JobTask2</DataField>
+        </Field>
+        <Field Name="Indentation_JobTaskTotal">
+          <DataField>Indentation_JobTaskTotal</DataField>
+        </Field>
+        <Field Name="ShowIntBody2">
+          <DataField>ShowIntBody2</DataField>
+        </Field>
+        <Field Name="ShowIntBody3">
+          <DataField>ShowIntBody3</DataField>
+        </Field>
+        <Field Name="TotalJobLbl">
+          <DataField>TotalJobLbl</DataField>
+        </Field>
+        <Field Name="JobTotalValue">
+          <DataField>JobTotalValue</DataField>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>DataSource</DataSourceName>
+        <CommandText />
+      </Query>
+    </DataSet>
+  </DataSets>
 </Report>
